@@ -1,0 +1,25 @@
+/* Importar las directivas de Tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definir variables globales para el color de fondo y primer plano */
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+/* Estilos para el modo oscuro, ajustando las variables */
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+} */
+
+/* Estilos globales mínimos */
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}

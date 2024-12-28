@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-export default function Footer() {
+export function Footer() {
   return (
     <footer className="bg-[#1E293B] text-white py-12">
       <div className="container mx-auto px-4">
@@ -8,9 +8,9 @@ export default function Footer() {
           <div className="space-y-4">
             <div className="flex items-center gap-2">
               <img
-                src="/placeholder.svg?height=32&width=32"
+                src="images/logo.png"
                 alt="Smart Farming"
-                className="h-8 w-8 rounded-full"
+                className="h-16 w-16 rounded-full"
               />
               <span className="font-semibold">Smart Farming</span>
             </div>

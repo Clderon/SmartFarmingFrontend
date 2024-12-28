@@ -4,7 +4,7 @@ import { useState } from "react"
 import { Upload } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 
-export default function FileUpload() {
+export function FileUpload() {
   const [file, setFile] = useState(null)
 
   const handleFileChange = (e) => {
@@ -39,7 +39,7 @@ export default function FileUpload() {
         </div>
       </div>
       <Button 
-        className="w-full bg-[#2A8C4A] hover:bg-[#1B5E20] transition-colors duration-200 text-white font-medium"
+        className="w-full bg-green-700 hover:bg-green-600 transition-colors duration-200 text-white font-medium"
         disabled={!file}
       >
         Analizar

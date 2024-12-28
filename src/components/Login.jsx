@@ -55,7 +55,7 @@ export default function Login() {
                     Recordarme
                   </label>
                 </div>
-                <Link className="text-sm text-emerald-800 underline" href="/register">
+                <Link className="text-sm text-emerald-800 underline" href="/recovery">
                   ¿Olvidaste Tu Contraseña?
                 </Link>
               </div>

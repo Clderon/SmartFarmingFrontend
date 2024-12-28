@@ -1,6 +1,16 @@
-// app/home/page.js
-import Homepage from "@/components/HomePage";  // Asegúrate de que el nombre de la carpeta esté en minúsculas
+import {Navigation} from "@/components/template/Navigation"
+import {Hero} from "@/components/template/Hero"
+import {Features} from "@/components/template/Features"
+import {Footer} from "@/components/template/Footer"
 
-export default function HomePage() {
-  return <Homepage />;
+export default function Home() {
+  return (
+    <main>
+      <Navigation />
+      <Hero />
+      <Features />
+      <Footer />
+    </main>
+  )
 }
+
